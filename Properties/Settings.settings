@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ONTUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastEnteredSLID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ONTIPADDRESS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.251</Value>
+    </Setting>
+    <Setting Name="ONTLOGIN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CRAFTSPERSON</Value>
+    </Setting>
+    <Setting Name="ONTPASS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ALC#FGU</Value>
+    </Setting>
+    <Setting Name="ONTPORT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">23</Value>
+    </Setting>
+    <Setting Name="UsePopup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseConsole" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseAutoMini" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
