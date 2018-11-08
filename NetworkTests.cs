@@ -27,9 +27,9 @@ namespace ONTUI
 
         public static void CheckNetworkInterfacesForStaticIP()
         {
-            staticNetworkInterfaces = UpdateNetworkInterfaceWithStaticIPList();
+            staticNetworkInterfaces = UpdateStaticNetworkInterfaceList();
         }
-        public static List<NetworkInterface> UpdateNetworkInterfaceWithStaticIPList()
+        public static List<NetworkInterface> UpdateStaticNetworkInterfaceList()
         {
             List<NetworkInterface> list = new List<NetworkInterface>();
 
