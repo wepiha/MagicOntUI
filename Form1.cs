@@ -194,7 +194,7 @@ namespace ONTUI
             
             labelDisplayFault.Enabled = modulator ? (ontInterface.State == ProvisionState.Disabled) : false;
 
-            labelDisplayWWW.Enabled = (NetworkTests.GetPingResult("adfs.chorus.co.nz", 400));
+            labelDisplayWWW.Enabled = (NetworkTests.GetPingResult("www.google.com", 400));
 
             textBoxInputASIDOrSLID.Enabled = ((ontInterface.State != ProvisionState.Disabled) && !checkBoxInputGO.Checked);
             checkBoxInputGO.Enabled = !(ontInterface.State == ProvisionState.Disabled);
